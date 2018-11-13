@@ -11,14 +11,15 @@ void setup() {
   a = 2;
   b = width;
   img = loadImage("flag.png");
+   tint(255, 200);
+  image(img, 0, 0);
 }
 
 void draw() {
   //background(50);
 
 
-  tint(255, 200);
-  image(img, 0, 0);
+ 
 
 
 
