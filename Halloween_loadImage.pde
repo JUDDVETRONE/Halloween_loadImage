@@ -21,6 +21,9 @@ void draw() {
 
  
 
+  tint(255, 200);
+  image(img, 0, 0);
+
 
 
 }
