@@ -1,5 +1,5 @@
 PImage img;
-
+PImage head;
 float a;
 float b;
 
@@ -10,9 +10,10 @@ void setup() {
   frameRate(20);
   a = 2;
   b = width;
+  head = loadImage("vetrone.head.png");
   img = loadImage("flag.png");
-   //tint(255, 200);
-  //image(img, 0, 0);
+  
+  image(img, 0, 0);
 }
 
 void draw() {
@@ -38,6 +39,7 @@ void draw() {
   //tint(200);
   //image(head, mouseX-300, mouseY-200, 108, 145);
 
+image(head, mouseX-300, mouseY-200, 108, 145);
 
   //white flag rect
   fill(255);
