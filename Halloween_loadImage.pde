@@ -35,8 +35,8 @@ void draw() {
   line(a-117, height/2, random(-8000, 8000), random(-8000, 8000));
 
 
-  tint(200);
-  image(head, mouseX-300, mouseY-200, 108, 145);
+  //tint(200);
+  //image(head, mouseX-300, mouseY-200, 108, 145);
 
 
   //white flag rect
