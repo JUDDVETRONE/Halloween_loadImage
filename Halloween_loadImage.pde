@@ -10,7 +10,7 @@ void setup() {
   frameRate(20);
   a = 2;
   b = width;
-  //img = loadImage("flag.png");
+  img = loadImage("flag.png");
    //tint(255, 200);
   //image(img, 0, 0);
 }
