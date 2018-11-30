@@ -21,8 +21,8 @@ void draw() {
 
  
 
-  //tint(255, 200);
-  //image(img, 0, 0);
+  tint(255, 200);
+  image(img, 0, 0);
   
   
   //background lines
