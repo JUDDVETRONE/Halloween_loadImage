@@ -16,12 +16,12 @@ void setup() {
 }
 
 void draw() {
-  background(50);
+  //background(50);
 
 
  
 
-  tint(255, 200);
+  //tint(255, 200);
   image(img, 0, 0);
   
   
